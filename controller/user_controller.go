@@ -13,6 +13,7 @@ import (
 )
 
 func RegisterHandler(w http.ResponseWriter, r *http.Request) {
+	fmt.Printf("hello")
 	w.Header().Set("Content-Type", "application/json")
 	var user model.User
 	err := r.ParseForm()
