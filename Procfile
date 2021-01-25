@@ -1,1 +1,1 @@
-web: main.gogit
+web: main.go
